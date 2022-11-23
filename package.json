@@ -1,6 +1,6 @@
 {
   "name": "ton-nft-mint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "@tg09F9 package for TON, with some helpfull methods for deploying NFT collections",
   "main": "app.js",
   "type": "module",
