@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TON-NFT/ton-nft-mint.git"
+    "url": "git+https://github.com/TON-NFT/ton-nft-mint.git"
   },
   "keywords": [],
   "author": "@tg09F9",
@@ -18,5 +18,10 @@
   "dependencies": {
     "tonweb": "^0.0.58",
     "tonweb-mnemonic": "^1.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/TON-NFT/ton-nft-mint/issues"
+  },
+  "homepage": "https://github.com/TON-NFT/ton-nft-mint#readme",
+  "devDependencies": {}
 }
