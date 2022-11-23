@@ -1,9 +1,15 @@
-# TON NFT Mint Helper package
+# TON NFT
+
+## Mint Helper package
+
+### Work in progress, use only if you really need.
 
 Just pass your collection config and wallet config to Deploy Function and your collection will be deployed.
 
-For more info ckeck ```example.js
+Also, you can mint as much NFT as your want, just make sure to make 30 seconds pause between mint, and ensure that collection wallet has enough TON on balance.
 
-Make sure your wallet already activated and v4R2 version.
+For more info check ```example.js```
 
-- OP code 2 (Coming soon...)
+Make sure your wallet is already activated and you are using **v4R2** version address.
+
+- OP code 2 for Batch Mint _(Coming soon...)_
