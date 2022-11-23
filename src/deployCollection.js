@@ -17,5 +17,12 @@ export async function deployCollection(config) {
 
   const deployCollectionTX = { secretKey, toAddress, amount, seqno, payload, sendMode, stateInit }
 
-  collectionConfig._wallet.methods.transfer(deployCollectionTX).send()
+  try {
+    collectionConfig._wallet.methods.transfer(deployCollectionTX).send()
+    console.log(`Please, check your new collection wallet https://tonscan.org/address/${toAddress}`)
+    return toAddress
+  } catch(e) {
+    console.log(e)
+    return false
+  }
 }
