@@ -1,0 +1,22 @@
+{
+  "name": "ton-nft-mint",
+  "version": "1.0.0",
+  "description": "@tg09F9 package for TON, with some helpfull methods for deploying NFT collections",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js",
+    "postinstall": "node src/_patch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TON-NFT/ton-nft-mint.git"
+  },
+  "keywords": [],
+  "author": "@tg09F9",
+  "license": "ISC",
+  "dependencies": {
+    "tonweb": "^0.0.58",
+    "tonweb-mnemonic": "^1.0.1"
+  }
+}
