@@ -26,5 +26,11 @@ export async function mintNFT(config, itemOwnerAddress) {
 
   const deployNftTX = { secretKey, toAddress, amount, seqno, payload, sendMode }
 
-  await collectionConfig._wallet.methods.transfer(deployNftTX).send()
+  try {
+    await collectionConfig._wallet.methods.transfer(deployNftTX).send()
+    return true
+  } catch(e) {
+    console.log(e)
+    return false
+  }
 }
