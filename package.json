@@ -16,12 +16,12 @@
   "author": "@tg09F9",
   "license": "ISC",
   "dependencies": {
+    "ton": "^12.1.5",
     "tonweb": "^0.0.58",
     "tonweb-mnemonic": "^1.0.1"
   },
   "bugs": {
     "url": "https://github.com/TON-NFT/ton-nft-mint/issues"
   },
-  "homepage": "https://github.com/TON-NFT/ton-nft-mint#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/TON-NFT/ton-nft-mint#readme"
 }

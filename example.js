@@ -1,4 +1,4 @@
-import { deployCollection, mintNFT } from './app.js'
+import { deployCollection, mintNFT, batchMintNFT } from './app.js'
 
 /* ---------------------- EXAMPLE USAGE ---------------------- */
 
@@ -18,10 +18,10 @@ const config = {
 }
 
 /* Make sure your wallet already activated and v4R2 version */
-const collection = await deployCollection(config)
-console.log(collection)
+// const collection = await deployCollection(config)
+// console.log(collection)
 
 /* Call this method after collection contract already deployed */
-const itemOwnerAddress = 'EQAd_LCfdJb_Iqz5ZOfyMI9bmJfU_Fz2SN-Gx3wcG33d2tiz'
-const mintResult = await mintNFT(config, itemOwnerAddress)
+const itemOwnerAddress = 'EQAKxNqUgLNnSILkjlVeBdOYGjmC_Uw6-o5X-KOOiWFj7VY_'
+const mintResult = await batchMintNFT(config, itemOwnerAddress, 5)
 console.log(mintResult)
